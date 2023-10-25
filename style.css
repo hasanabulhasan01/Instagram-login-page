@@ -1,0 +1,128 @@
+#main{
+    height: 600px;
+    width: 800px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    
+}
+.image{
+    width: 400px;
+    height: 600px;
+    padding: 0px;
+    /* border: 1px solid black; */
+}
+.loginMain{
+    width: 400px;
+    height: 600px;
+    /* border: 1px solid black; */
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid rgb(207, 189, 189);
+    height: 400px;
+    width: 370px;
+    margin: auto;
+}
+.insta{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: block;
+
+}
+.input{
+    width: 310px;
+    height: 30px;
+    display: flex;
+    background-color: rgb(247, 246, 246);
+    border-color: rgb(207, 189, 189);
+    
+    
+}
+/* .form{
+    width: 320px;
+    height: 70px;
+    display: block;
+} */
+.btn {
+    width: 320px;
+    height: 35px;
+    border-radius: 15px;
+    background-color: blue;
+    color: white;
+    border-color: blue;
+    font-size: 15px;
+    
+}
+
+.fb{
+    text-decoration: none;
+    text-align: center;
+    font-size: 17px;
+
+}
+.abc{
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.signup{
+    width: 370px;
+    height: 60px;
+    border: 1px solid rgb(207, 189, 189);
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signup>p>a{
+    text-decoration: none;
+}
+.get{
+    width: 370px;
+    height: 40px;
+    /* border: 1px solid black; */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+.getapp{
+    width: 280px;
+    height:70px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.footer{
+    width: 60%;
+    margin: auto;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer>a{
+    text-decoration: none;
+    color: rgb(80, 183, 187);
+}
+.footer>a:hover{
+    text-decoration: underline;
+}
+.footer2{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    color: rgb(80, 183, 187);
+    font-size: 13px;
+}
+.footer2>select{
+    border: none;
+    color: rgb(80, 183, 187);
+}
